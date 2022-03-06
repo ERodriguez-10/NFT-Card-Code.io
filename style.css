@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nft-card {
+    width: 325px;
+    margin: 0 auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+.nft-img {
+    padding: 20px 20px 0 20px;
+    position: relative;
+}
+
+.a {
+    background-color: hsl(178, 100%, 50%);
+    opacity: 1;
+    width: 285px;
+    height: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.a img {
+    width: 64px !important;
+    height: 64px !important;
+    border-radius: 10px !important;
+}
+
+.a img:hover {
+    opacity: 1 !important;
+}
+
+.b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 20px 0 20px;
+}
+
+.nft-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.nft-img img:hover {
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.nft-text {
+    padding: 0 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+}
+
+.nft-title {
+    font-size: 21px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.nft-title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.nft-description {
+    font-size: 17px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%)
+}
+
+.nft-price {
+    font-size: 14px;
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.nft-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nft-icon img {
+    width: 16px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.time-left {
+    display: flex;
+    align-items: center;
+}
+
+.time-left img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.time-left p {
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+}
+
+.nft-author {
+    display: flex;
+    align-items: center;
+}
+
+.nft-author img {
+    width: 32px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.nft-author p {
+    font-size: 17px;
+    color: hsl(215, 51%, 70%);
+}
+
+.nft-author span {
+    font-size: 17px;
+    color: hsl(0, 0%, 100%);
+}
+
+.nft-author span:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+hr {
+    margin-bottom: 20px;
+    
+}
+
+.style-hr {
+    border: 0.5px solid hsl(215, 51%, 70%);
+}
+
